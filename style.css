@@ -1,0 +1,187 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Cinzel' sans-serif;
+}
+
+.header{
+    background-color: #000407;
+    color: #32B9CD;
+    border-bottom: 3px solid #32B9CD;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    width: 400px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: #E3B062;
+}
+
+.agora{
+    font-weight: 900;
+}
+
+.banner{
+    background-image: url('imgs/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+    height: 500px;
+}
+
+.banner .container{
+    height: 500px; 
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.banner .container.login{
+    justify-content: center;
+}
+
+.banner p{
+    font-size: 36px;
+    width: 280px;
+    margin-left: 20%;
+}
+
+.footer {
+    background-color: #32B9CD;
+    color: white;
+}
+
+.footer .container{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background-color: #E5E5E5;
+    color: #E6005A;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card h2{
+    margin: 0;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+    width: 250px;
+}
+
+form label{
+    margin-top: 8px;
+    font-size: 20px;
+    margin-right: auto;
+}
+
+form input{
+    margin-top: 8px;
+    border-radius: 10px;
+    outline: 3px solid #32B9CD;
+    border: 0;
+    padding: 8px;
+}
+
+form button{
+    margin-top: 16px;
+    background-color: #E6005A;
+    color: white;
+    padding: 10px 15px;
+    width: 120px;
+    align-self: center;
+    font-size: 18px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.caixa{
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100;
+    padding: 200px 0;
+}
+
+.caixa .conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    color: #E6005A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.img1{
+    width: 30%;
+    margin-left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img2{
+    width: 30%;;
+    margin-left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img3{
+    width: 30%;
+    margin-left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.caixa .container .titulo{
+    color: #000407;
+}
+.paragrafo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    Text-align: center;
+    width: 45%;
+    margin-left: 30%;
+    margin-top: 0%;
+}
